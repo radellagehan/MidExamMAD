@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFF0F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Management"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#C71585"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/txtStudentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student ID"
+        android:textColor="#8B008B"
+        android:textColorHint="#DB7093"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/txtStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student Name"
+        android:textColor="#8B008B"
+        android:textColorHint="#DB7093"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/txtStudentAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student Age (17-50)"
+        android:inputType="number"
+        android:textColor="#8B008B"
+        android:textColorHint="#DB7093"
+        android:layout_marginBottom="28dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:backgroundTint="#FF69B4"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Student"
+        android:backgroundTint="#FFB6C1"
+        android:textColor="#C71585"/>
+
+</LinearLayout>
